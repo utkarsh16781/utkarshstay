@@ -1,0 +1,29 @@
+{
+  "name": "utkarshstay-backend",
+  "version": "1.0.0",
+  "description": "UtkarshStay REST API - Express, MongoDB, Passport, Cloudinary",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "seed": "node init/index.js"
+  },
+  "engines": { "node": ">=20" },
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.41.3",
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "joi": "^18.2.5",
+    "mongoose": "^9.9.3",
+    "multer": "^2.4.0",
+    "multer-storage-cloudinary": "^4.0.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^9.1.0"
+  }
+}

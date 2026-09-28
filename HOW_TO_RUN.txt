@@ -1,0 +1,23 @@
+HOW TO RUN UTKARSHSTAY
+=========================
+
+The easy way:
+
+  1. Double-click start.bat in this folder.
+  2. Two black windows will open - one titled "UtkarshStay backend",
+     one titled "UtkarshStay frontend". Leave both open while you use
+     the app; closing either one stops that half of the app.
+  3. Wait for the frontend window to show a line like:
+       Local:   http://localhost:5173/
+  4. Open that address in your browser.
+
+That's it. backend/.env already has real values in it (Mongo, session
+secret, Cloudinary), so you shouldn't need to edit anything.
+
+If something goes wrong, look at whichever of the two black windows
+printed the error - it will usually explain what happened.
+
+Note: this ZIP contains your real Cloudinary API secret in
+backend/.env. Keep this ZIP private - don't upload it anywhere public
+(GitHub, a shared drive, etc.) without first deleting or replacing
+backend/.env.
